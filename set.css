@@ -1,0 +1,102 @@
+/*
+  NAME: Jessica Johnson
+  DATE: 03/27/2023
+  SECTION/TA:
+
+  INSERT 2-3 SENTENCE DESCRIPTION OF FILE HERE: CSS file for Set game. Includes styling for Part A.
+ */
+
+body, button, select, input {
+  text-align: center;
+  font-size: 12pt;
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+button, select {
+  padding: 8px;
+  background-color: white;
+  border: 2pt solid black;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 16pt;
+}
+
+#start-btn {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#menu-view > article {
+  background-color: #6F77ED;
+  border-radius: 0.35em;
+  border: 5pt solid black;
+  color: white;
+}
+
+#details-bar { 
+  display: flex;
+  background-color: black;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0.5em;
+  color: white;
+  size: 14pt;
+}
+
+div > .card{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 220px;
+  height: 95px;
+  border-style: solid;
+  border-width: 0.35em;
+  border-radius: 1em;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.selected{
+  box-shadow: 6px 6px #636363;
+}
+
+.card > img{
+  height: 85%;
+}
+
+.card > p{
+  size: 16pt;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.hide-imgs > img{
+  display: none;
+}
+
+#board{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-bottom-width: 5px;
+  border-top-width: 0px;
+}
+
+.hidden{
+  display: none;
+}
